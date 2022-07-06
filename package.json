@@ -1,8 +1,8 @@
 {
-    "name": "brainscloud",
+    "name": "Nik_Voi",
     "version": "1.0.0",
-    "description": "brainscloud",
-    "author": "brainscloud",
+    "description": "Nik_Voi",
+    "author": "Nik_Voi",
     "devDependencies": {
         "@babel/core": "^7.16.0",
         "@babel/preset-env": "^7.16.4",
