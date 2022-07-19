@@ -1,0 +1,59 @@
+.Video{
+    background: $bg-header-top; 
+    height: 900px;  
+    padding-top: 270px;
+
+}
+
+.Video__box{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    width: 275px;
+    height: 300px;
+    
+    border: 10px solid $main;
+
+    text-transform: uppercase;
+}
+
+.vidio__title{
+    text-align: center;
+    padding-top: 30px;
+
+    opacity: .7;
+    font-size: $_50px;
+}
+
+.video__subtitle{
+    text-align: center;
+    padding-top: 30px;
+
+    font-size: $_100px;
+}
+
+.player{
+    width: 30px;
+    height: 28px;
+
+    margin-left: 90px;
+    padding: 5px 0 0 2px;
+
+    border: 2px solid $white;
+    border-radius: 50%;
+    fill: $white;
+
+    cursor: pointer;
+
+    &:hover{
+        transition: .3s;
+
+        border: 2px solid $main;
+        border-radius: 50%;
+        fill: $main;
+    }
+
+}

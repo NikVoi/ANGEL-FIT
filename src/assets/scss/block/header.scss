@@ -1,0 +1,116 @@
+header{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+
+    & svg{
+        width: 18px;
+        height: 18px;
+        fill: $white;
+    }
+
+    & a{
+        color: $white;
+    }
+}
+
+.heeader__top{
+    padding-top: 27px;
+    height: 78px;
+
+    background: $bg-header-top;
+}
+
+.header__contacts{
+    display: inline-block;
+
+    & p{
+        display: inline-block;
+        margin-right: 70px;
+
+        & span{
+            opacity: .5;
+        }
+
+    }
+
+    & svg{
+        width: 18px;
+        height: 18px;
+
+        margin-right: 5px;
+    }
+    
+    font-size: $_20px;
+}
+
+.header__social{
+    display: inline-block;
+
+    & a{
+        margin-right: 15px;
+    }
+
+    & svg{
+        width: 20px;
+        height: 20px;
+
+        &:hover{
+            transition: .3s;
+            fill: $main
+        }
+    }
+}
+
+.header__bottom{
+    background: $bg-header-bottom;
+
+    display: flex;
+    justify-content: space-between;
+
+    text-transform: uppercase;
+}
+
+.header__logo{
+    padding-top: 26px;
+
+    width: 150px;
+    height: 110px;
+
+    background: $main;
+
+    & svg{
+        width: 50px;
+        height: 30px;
+
+        margin-bottom: 7px;      
+    }
+}
+
+.header__nav{  
+    padding-top: 47px;
+}
+
+.header__button{
+    padding-top: 46px;
+
+    width: 340px;
+    height: 100%;
+
+    background: $main;
+
+    & svg{
+        width: 6px;
+        height: 13px;
+    }
+
+    & span{padding-right: 20px;}
+}
+
+.header__arrow{
+    &-1{ opacity: .25; }
+    &-2{ opacity: .5; }
+    &-3{ opacity: .75; }
+    &-4{ opacity:  1; }
+}

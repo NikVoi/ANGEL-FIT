@@ -1,10 +1,64 @@
+@import "vender/reset.scss";
+@import "_vars.scss";
+
+@import "block/header.scss";
+@import "block/nav.scss";
+@import "block/video.scss";
+@import "block/blog.scss";
+@import "block/buttons.scss";
+@import "block/priceList.scss";
+@import "block/classes.scss";
+@import "block/aboutUs.scss";
+@import "block/footer.scss";
+
 
 //  font-family:
 //  'Agency FB'
 //  'Agency FB bold'
-body {
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+
     font-family: 'Agency FB bold', arial;
     background-color: black;
     font-size: 21px;
     color: white;
 }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    & .content{
+        flex: 1 1 auto;
+    }
+
+}
+
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+
+    &--wt1000{
+        width: 1000px;
+    }
+}
+
+
+hr{
+    border: 1px solid $line;
+}
+
+a{
+    color: $white;
+    
+    &:hover{
+        color: $main;
+        transition: .3s;
+    }
+}
+

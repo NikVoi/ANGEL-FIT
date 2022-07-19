@@ -5,11 +5,19 @@
 </head>
 <body>
 
-    {{> header }}
+    <div class="wrapper">
+        {{> header }}
 
-    {{> body }}
+        <section class="content">
 
-    {{> footer }}
+            {{> body }}
+
+        </section>
+       
+    
+        {{> footer }}
+    </div>
+
 
     <script src="assets/js/app.js"></script>
 </body>

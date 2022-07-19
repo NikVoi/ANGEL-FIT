@@ -1,0 +1,15 @@
+.nav__link{
+    margin-right: 30px;
+
+    &.selected{
+        border-bottom: 1px solid $white;
+        padding-bottom: 3px;
+    }
+
+    &:hover{
+        transition: .3s;
+
+        border-bottom: 1px solid $white;
+        padding-bottom: 3px;
+    }
+}
